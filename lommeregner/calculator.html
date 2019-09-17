@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="headline">Calculator</h1>
+    <tabel class="calculator">
+        <tr>
+        <tr>
+            <td>
+                <input type="text" id="input" placeholder="0" readonly="readonly">
+                <input type="text" id="answer" readonly="readonly">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="CE" class="clearscreen">
+                <input type="button" value="&#247;" class="operator">
+                <input type="button" value="X" class="operator">
+                <input type="button" value="&#8592;" class="erase">
+                <br>
+                <input type="button" value="1" class="number">
+                <input type="button" value="2" class="number">
+                <input type="button" value="3" class="number">
+                <input type="button" value="+" class="operator">
+                <br>
+                <input type="button" value="4" class="number">
+                <input type="button" value="5" class="number">
+                <input type="button" value="6" class="number">
+                <input type="button" value="-" class="operator">
+                <br>
+                <input type="button" value="7" class="number">
+                <input type="button" value="8" class="number">
+                <input type="button" value="9" class="number">
+                <input type="button" value="()" class="brackets">
+                <br>
+                <input type="button" value="+/-" class="operator">
+                <input type="button" value="0" class="number">
+                <input type="button" value="=" class="equals">
+            </td>
+        </tr>
+        </tr>
+    </tabel>
+    
+    <!--Reference til JavaScript dokument. Denne er placeret i bunden, for at sikre alle elementer er loadet 
+        før de gives handlinger med JavaScript.-->
+    <script src="calculator.js"></script>
+</body>
+</html>
