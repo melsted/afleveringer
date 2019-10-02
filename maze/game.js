@@ -38,7 +38,7 @@ let y = 0; //Yderste arrayindex er mit y.
 
 //////////HENT AVATAR//////////////
 let gaby = new Image();
-gaby.src = 'img/gaby.png';
+gaby.src = 'img/hamster.png';
     
 
 
